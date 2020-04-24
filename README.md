@@ -22,7 +22,8 @@ The steps are listed below:
 4. [sentiment analysis](/0.%20auto-streaming%20mbs%20feedback/4.%20sentiment%20analysis)
 5. [models](/0.%20auto-streaming%20mbs%20feedback/5.%20models)
 
-There are 3 data files used:
+There are 4 data files used:
 - MBS_data.csv is the scraped data from the review site.
-- cons_data_full.xlsx is the resultant file after sentence splitting is performed.
-- data_cleaned.csv is the resultant file after data cleaning is performed and used as the input file for model training.
+- cons_data.xlsx is the resultant file after sentence splitting and manual labeling were performed. It was also used as the input file for sentiment analysis.
+- cons_data_full.xlsx is the file after removing all positive comments from cons_data.xlsx.
+- data_cleaned.csv is the cleaned dataset and was used as the input file for model training.
